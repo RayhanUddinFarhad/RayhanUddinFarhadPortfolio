@@ -5,7 +5,7 @@ import { FaCircle, FaDownload, FaFoursquare } from 'react-icons/fa';
 const AboutMe = () => {
   return (
 
-    <div className=" min-h-96 bg-gray-900 text-white py-32 mx-auto  ">
+    <div id='about' className=" min-h-96 bg-gray-900 text-white py-32 mx-auto  ">
       <div className="flex lg:space-x-5 flex-col lg:flex-row-reverse  items-center justify-center">
         <img src={myPic2} className=" h-96 object-cover rounded-lg shadow-2xl" />
         <div className=' max-w-xl lg:mr-5 p-2'>

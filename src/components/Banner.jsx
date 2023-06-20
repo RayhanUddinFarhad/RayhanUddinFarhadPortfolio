@@ -36,7 +36,7 @@ const Banner = () => {
 
 
 
-        <div style={{ background: 'linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%)' }} className=" min-h-96 p-5 mx-auto  ">
+        <div id='welcome' style={{ background: 'linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%)' }} className=" min-h-96 p-5 mx-auto  ">
             <div className="lg:flex space-y-10 lg:space-y-0 lg:space-x-10 items-center justify-center ">
                 <div className='relative'>
 

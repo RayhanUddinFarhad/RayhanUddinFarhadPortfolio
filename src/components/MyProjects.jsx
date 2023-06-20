@@ -6,7 +6,7 @@ import Project3 from './Project3';
 
 const MyProjects = () => {
     return (
-        <div className='text-base-content py-32 '>
+        <div id='projects' className='text-base-content py-32 '>
 
             <h1 className='text-3xl text-white font-bold text-center'>My Recent Projects</h1>
 
@@ -18,7 +18,7 @@ const MyProjects = () => {
             <Project3></Project3>
 
 
-            
+
 
 
             </div>
