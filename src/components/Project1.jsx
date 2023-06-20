@@ -96,7 +96,7 @@ const Project1 = () => {
 
 
                             <h1 className='text-xl font-bold'>Key Features</h1>
-                            <ul className='list-disc p-2 space-y-3'>
+                            <ul className='list-disc p-2 space-y-5'>
                                 <li>Student Enrollment: Students can log in and enroll in summer school camps using Stripe payment integration, ensuring a seamless enrollment process.</li>
                                 <li>Payment History Tracking: Students can view their payment history, providing transparency and easy access to past transactions.</li>
                                 <li>Instructor Dashboard: Instructors have access to a dedicated dashboard where they can add classes, track class status, and receive valuable feedback from the admin.</li>

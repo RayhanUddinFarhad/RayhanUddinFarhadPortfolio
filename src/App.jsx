@@ -7,6 +7,7 @@ import Banner from './components/Banner'
 import Skills from './components/Skills'
 import MyProjects from './components/MyProjects'
 import AboutMe from './components/AboutMe'
+import ContactMe from './components/ContactMe'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
     <AboutMe></AboutMe>
     <Skills></Skills>
     <MyProjects></MyProjects>
+    <ContactMe></ContactMe>
     </div>
     </div>
     // style={{ background: 'linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%)' }}

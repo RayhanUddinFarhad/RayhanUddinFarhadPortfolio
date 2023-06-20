@@ -12,10 +12,13 @@ const MyProjects = () => {
 
 
             <div className='grid lg:grid-cols-3 my-5 gap-10 max-w-screen-lg mx-auto justify-center'>
+            <Project2></Project2>
 
             <Project1></Project1>
-            <Project2></Project2>
             <Project3></Project3>
+
+
+            
 
 
             </div>

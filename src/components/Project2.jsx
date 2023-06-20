@@ -34,7 +34,7 @@ const Project2 = () => {
         <form method="dialog" className="modal-box w-11/12 max-w-5xl bg-gray-900">
 
 
-          <div className='lg:flex justify-between space-x-5 '>
+          <div className='lg:flex justify-between lg:space-x-5 space-y-5 lg:space-y-0'>
 
 
 

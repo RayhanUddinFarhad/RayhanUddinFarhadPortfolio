@@ -19,7 +19,7 @@ const Skills = () => {
             <div className='divider-horizontal'></div>
 
 
-            <div className=' grid lg:grid-cols-4 items-center justify-center space-y-5 mx-auto gap-5 '>
+            <div className=' grid lg:grid-cols-4 grid-cols-2  items-center justify-center space-y-5 mx-auto gap-5 '>
 
 
 
@@ -78,7 +78,7 @@ const Skills = () => {
 
 
 
-                    <div className="radial-progress text-red-400 font-extrabold" style={{ "--value": "98", "--size": "8rem", "--thickness": "1rem" }}> 98%</div>
+                    {/* <div className="radial-progress text-red-400 font-extrabold" style={{ "--value": "98", "--size": "8rem", "--thickness": "1rem" }}> 98%</div> */}
                     <img className='w-8' src={htmlPic} alt="" />
                     <h1 className='text-2xl font-bold'>HTML</h1>
                 </div>
@@ -87,7 +87,7 @@ const Skills = () => {
 
 
 
-                    <div className="radial-progress text-[#718af0] font-extrabold" style={{ "--value": "90", "--size": "8rem", "--thickness": "1rem" }}> 90%</div>
+                    {/* <div className="radial-progress text-[#718af0] font-extrabold" style={{ "--value": "90", "--size": "8rem", "--thickness": "1rem" }}> 90%</div> */}
                     <img className='w-8' src={css} alt="" />
 
                     <h1 className='text-2xl font-bold'>CSS</h1>
@@ -96,7 +96,7 @@ const Skills = () => {
 
 
 
-                    <div className="radial-progress text-teal-500 font-extrabold" style={{ "--value": "95", "--size": "8rem", "--thickness": "1rem" }}> 95%</div>
+                    {/* <div className="radial-progress text-teal-500 font-extrabold" style={{ "--value": "95", "--size": "8rem", "--thickness": "1rem" }}> 95%</div> */}
                     <img className='w-8' src={tailwindpic} alt="" />
 
                     <h1 className='text-2xl font-bold'>Tailwind</h1>
@@ -107,7 +107,7 @@ const Skills = () => {
 
 
 
-                    <div className="radial-progress text-purple-300 font-extrabold" style={{ "--value": "90", "--size": "8rem", "--thickness": "1rem" }}> 90%</div>
+                    {/* <div className="radial-progress text-purple-300 font-extrabold" style={{ "--value": "90", "--size": "8rem", "--thickness": "1rem" }}> 90%</div> */}
                     <img className='w-8' src={bootstrap} alt="" />
 
                     <h1 className='text-2xl font-bold'>Bootstrap</h1>
@@ -117,7 +117,7 @@ const Skills = () => {
 
 
 
-                    <div className="radial-progress text-yellow-300 font-extrabold" style={{ "--value": "80", "--size": "8rem", "--thickness": "1rem" }}> 80%</div>
+                    {/* <div className="radial-progress text-yellow-300 font-extrabold" style={{ "--value": "80", "--size": "8rem", "--thickness": "1rem" }}> 80%</div> */}
                     <img className='w-8' src={javascript} alt="" />
 
                     <h1 className='text-2xl font-bold'>Javascript</h1>
@@ -127,7 +127,7 @@ const Skills = () => {
 
 
 
-                    <div className="radial-progress text-blue-300 font-extrabold" style={{ "--value": "90", "--size": "8rem", "--thickness": "1rem" }}> 88%</div>
+                    {/* <div className="radial-progress text-blue-300 font-extrabold" style={{ "--value": "90", "--size": "8rem", "--thickness": "1rem" }}> 88%</div> */}
                     <img className='w-8' src={reactPic} alt="" />
 
                     <h1 className='text-2xl font-bold'>React</h1>
@@ -137,7 +137,7 @@ const Skills = () => {
 
 
 
-                    <div className="radial-progress text-emerald-600 font-extrabold" style={{ "--value": "70", "--size": "8rem", "--thickness": "1rem" }}> 70%</div>
+                    {/* <div className="radial-progress text-emerald-600 font-extrabold" style={{ "--value": "70", "--size": "8rem", "--thickness": "1rem" }}> 70%</div> */}
                     <img className='w-8' src={mongoDb} alt="" />
                     <h1 className='text-2xl font-bold'>MongoDB</h1>
 
@@ -146,7 +146,7 @@ const Skills = () => {
 
 
 
-                    <div className="radial-progress text-green-300 font-extrabold" style={{ "--value": "85", "--size": "8rem", "--thickness": "1rem" }}> 85%</div>
+                    {/* <div className="radial-progress text-green-300 font-extrabold" style={{ "--value": "85", "--size": "8rem", "--thickness": "1rem" }}> 85%</div> */}
                     <h1 className='text-2xl font-bold'>Express Js</h1>
 
                 </div>
@@ -155,7 +155,7 @@ const Skills = () => {
 
 
 
-                    <div className="radial-progress text-yellow-500 font-extrabold" style={{ "--value": "90", "--size": "8rem", "--thickness": "1rem" }}> 90%</div>
+                    {/* <div className="radial-progress text-yellow-500 font-extrabold" style={{ "--value": "90", "--size": "8rem", "--thickness": "1rem" }}> 90%</div> */}
                     <img className='w-8' src={firebase} alt="" />
 
                     <h1 className='text-2xl font-bold'>Firebase</h1>
@@ -166,8 +166,8 @@ const Skills = () => {
 
 
 
-                    <div className="radial-progress text-white font-extrabold" style={{ "--value": "90", "--size": "8rem", "--thickness": "1rem" }}> 90%</div>
-                    <FaGithub className='text-[4rem]'></FaGithub>
+                    {/* <div className="radial-progress text-white font-extrabold" style={{ "--value": "90", "--size": "8rem", "--thickness": "1rem" }}> 90%</div> */}
+                    <FaGithub  className='text-4xl'></FaGithub>
 
                     <h1 className='text-2xl font-bold'>Github</h1>
 
@@ -177,7 +177,7 @@ const Skills = () => {
 
 
 
-                    <div className="radial-progress text-green-500 font-extrabold" style={{ "--value": "85", "--size": "8rem", "--thickness": "1rem" }}> 85%</div>
+                    {/* <div className="radial-progress text-green-500 font-extrabold" style={{ "--value": "85", "--size": "8rem", "--thickness": "1rem" }}> 85%</div> */}
                     <img className='w-8' src={android} alt="" />
 
                     <h1 className='text-2xl font-bold'>Android </h1>
