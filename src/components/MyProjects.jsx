@@ -6,7 +6,9 @@ import Project3 from './Project3';
 
 const MyProjects = () => {
     return (
-        <div id='projects' className='text-base-content py-32 '>
+        <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"  className='text-base-content p-5 h-full'>
 
             <h1 className='text-3xl text-white font-bold text-center'>My Recent Projects</h1>
 

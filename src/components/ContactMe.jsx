@@ -1,7 +1,41 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import mypc from '../assets/mypicForabout.jpg'
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
+import Shake from 'react-reveal/Shake';
+
+
+
+
 
 const ContactMe = () => {
+    const form = useRef();
+
+
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_22fhyy9', 'template_cfdy8ng', form.current, 'SmmDltuZLRZCNNVX4')
+            .then((result) => {
+                console.log(result.text);
+                if (result.text === 'OK') {
+
+
+
+                    Swal.fire(
+                        'Good job!',
+                        'Message has been sent successfully!',
+                        'success'
+                    )
+
+                    e.target.reset();
+                }
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
     return (
         <div id='contact'>
 
@@ -19,13 +53,13 @@ const ContactMe = () => {
                     <div className='w-full'>
 
                         <h1 className='text-gray-300 text-xl font-bold'>Find me on E-mail</h1>
-                        <p className='text-white text-lg lg:text-3xl font-bold '>RayhanUddinFarhad11@gmail.com</p>
+                        <p className='text-white text-lg lg:text-xl font-bold '>RayhanUddinFarhad11@gmail.com</p>
                     </div>
 
                     <div>
 
                         <h1 className='text-gray-300 text-xl font-bold '>Find me on WhatsApp/Telegram/Phone</h1>
-                        <p className='text-white text-lg lg:text-3xl font-bold'>+8801791403364</p>
+                        <p className='text-white text-lg lg:text-xl font-bold'>+8801791403364</p>
 
                     </div>
 
@@ -33,7 +67,8 @@ const ContactMe = () => {
                 </div>
 
 
-                <div className='w-full lg:space-y-5'>
+                <form ref={form} onSubmit={sendEmail} className='w-full lg:space-y-5'>
+                    <h1 className='text-3xl font-bold  text-white'>Let's work together to build outstanding web experiences! <Shake loop>🚀</Shake></h1>
                     <div className=' lg:flex lg:space-x-4'>
 
 
@@ -47,7 +82,7 @@ const ContactMe = () => {
 
 
 
-                            <input type="text" placeholder='*Name' className='input  text-white bg-transparent border w-full  input-bordered  ' />
+                            <input name='from_name' type="text" placeholder='*Name' className='input  text-white bg-transparent border w-full  input-bordered  ' />
 
                         </div>
 
@@ -60,7 +95,7 @@ const ContactMe = () => {
 
 
 
-                            <input type="text" placeholder="*Email" className="input text-white bg-transparent input-bordered w-full" />
+                            <input name='from_email' type="text" placeholder="*Email" className="input text-white bg-transparent input-bordered w-full" />
 
                         </div>
                     </div>
@@ -74,7 +109,7 @@ const ContactMe = () => {
 
 
 
-                        <input type="text" placeholder="*Subject" className="input text-white bg-transparent input-bordered w-full" />
+                        <input name='from_subject' type="text" placeholder="*Subject" className="input text-white bg-transparent input-bordered w-full" />
 
                     </div>
 
@@ -87,7 +122,7 @@ const ContactMe = () => {
 
 
 
-                        <textarea type="text" placeholder="*Your Message" className="textarea text-white bg-transparent textarea-bordered h-32 w-full" />
+                        <textarea name='message' type="text" placeholder="*Your Message" className="textarea text-white bg-transparent textarea-bordered h-32 w-full" />
 
                     </div>
 
@@ -98,7 +133,7 @@ const ContactMe = () => {
 
 
 
-                </div>
+                </form>
 
 
 

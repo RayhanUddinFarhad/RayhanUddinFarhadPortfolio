@@ -14,12 +14,14 @@ import firebase from '../assets/firebase.png'
 
 const Skills = () => {
     return (
-        <div  className='text-white w-full ' style={{ background: 'linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%)' }}>
+        <div  className='text-white w-full p-5' style={{ background: 'linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%)' }}>
             <h1 className='text-white text-3xl font-bold text-center  p-2'>Skills</h1>
-            <div  id='skills' className='divider-horizontal'></div>
+            <div   className='divider-horizontal'></div>
 
 
-            <div className=' grid lg:grid-cols-4 grid-cols-2  items-center justify-center space-y-5 mx-auto gap-5 '>
+            <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1500" className=' grid lg:grid-cols-4 grid-cols-2  items-center justify-center space-y-5 mx-auto gap-5 '>
 
 
 

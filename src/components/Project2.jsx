@@ -15,13 +15,13 @@ const Project2 = () => {
     <>
 
 
-      <div className="card  bg-base-content text-gray-100 shadow-xl h-full">
-        <figure><img className='' src={stylespot} alt="Shoes" /></figure>
+      <div className="card  bg-transparent text-gray-100 shadow-xl h-full">
+        <figure><img className='hover:scale-125 ease-in duration-500' src={stylespot} alt="Shoes" /></figure>
         <div className="card-body justify-end">
           <h1> <span className='text-2xl font-bold'>StyleSpot</span> -  An E-Commerce Website</h1>
 
           <div className="card-actions justify-end">
-            <button className="btn btn-circle" onClick={() => window.my_modal_5.showModal()}> <FaArrowRight></FaArrowRight></button>
+            <button className="btn btn-circle hover:bg-inherit hover:text-white" onClick={() => window.my_modal_5.showModal()}> <FaArrowRight></FaArrowRight></button>
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@ const Project2 = () => {
 
           <div className="modal-action">
             {/* if there is a button, it will close the modal */}
-            <button className="btn">Close</button>
+            <button className="btn btn-sm btn-circle btn-ghost text-white text-2xl absolute right-0 -top-2">✕</button>
           </div>
         </form>
       </dialog>

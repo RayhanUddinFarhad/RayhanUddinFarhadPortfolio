@@ -46,7 +46,7 @@ const MagicNav = () => {
   }, []);
 
   return (
-    <div className='fixed z-10 lg:top-32 top-0 lg:block flex text-3xl bg-neutral bg-opacity-50 p-3 font-bold text-white space-x-10 lg:space-x-0 lg:space-y-16'>
+    <div className='fixed z-10 bottom-0  lg:block   flex text-3xl bg-neutral lg:h-full bg-opacity-50 p-3 font-bold text-white space-x-10 lg:space-x-0 lg:space-y-16'>
       <a
         className={`block ${activeLink === 'home' ? 'bg-purple-400 p-1 rounded-lg' : ''}`}
         href="#welcome"

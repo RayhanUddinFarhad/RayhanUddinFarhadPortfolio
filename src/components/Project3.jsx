@@ -12,13 +12,13 @@ const Project3 = () => {
     return (
         <>
 
-            <div className="card  bg-base-content text-gray-100 shadow-xl h-full">
-                <figure><img className='w-' src={brainbox} alt="Shoes" /></figure>
+            <div className="card  bg-transparent text-gray-100 shadow-xl h-full">
+                <figure><img className='hover:scale-125 ease-in duration-500' src={brainbox} alt="Shoes" /></figure>
                 <div className="card-body justify-end">
                     <h1> <span className='text-2xl font-bold'>BrainboxKiddo</span> -  A Toys Marketplace Website</h1>
 
                     <div className="card-actions justify-end">
-                        <button className="btn btn-circle" onClick={() => window.my_modal_7.showModal()}> <FaArrowRight></FaArrowRight></button>
+                        <button className="btn btn-circle  hover:bg-inherit hover:text-white" onClick={() => window.my_modal_7.showModal()}> <FaArrowRight></FaArrowRight></button>
                     </div>
                 </div>
             </div>
@@ -28,11 +28,11 @@ const Project3 = () => {
 
 
 
-            <dialog id="my_modal_7" className="modal">
+            <dialog id="my_modal_7" className="modal ">
                 <form method="dialog" className="modal-box w-11/12 max-w-5xl bg-gray-900">
 
 
-                    <div className='lg:flex justify-between space-x-5 '>
+                    <div className='lg:flex justify-between space-y-5 lg:space-y-0 lg:space-x-5 '>
 
 
 
@@ -111,7 +111,7 @@ const Project3 = () => {
 
                     <div className="modal-action">
                         {/* if there is a button, it will close the modal */}
-                        <button className="btn">Close</button>
+                        <button className="btn btn-sm btn-circle btn-ghost text-white text-2xl absolute right-0 -top-2">✕</button>
                     </div>
                 </form>
             </dialog>
