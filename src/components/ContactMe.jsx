@@ -37,11 +37,11 @@ const ContactMe = () => {
     };
 
     return (
-        <div id='contact'>
+        <div  className='max-w-screen-lg mx-auto '>
 
             <h1 className='text-white text-4xl font-bold text-center my-10'>Contact with me</h1>
 
-            <div className='lg:flex items-center max-w-screen-2xl mx-auto space-y-5 lg:space-y-0  lg:space-x-5 p-10 bg-blue-950 '>
+            <div className='flex flex-col-reverse lg:flex-row items-center max-w-screen-2xl mx-auto space-y-5 lg:space-y-0  lg:space-x-5 p-10 bg-blue-950 rounded-3xl shadow'>
 
 
                 <div className='space-y-5'>
@@ -68,7 +68,7 @@ const ContactMe = () => {
 
 
                 <form ref={form} onSubmit={sendEmail} className='w-full lg:space-y-5'>
-                    <h1 className='text-3xl font-bold  text-white'>Let's work together to build outstanding web experiences! <Shake loop>🚀</Shake></h1>
+                    <h1 className='text-xl font-bold  text-white'>Let's work together to build outstanding web experiences!<Shake loop>🚀</Shake></h1>
                     <div className=' lg:flex lg:space-x-4'>
 
 
@@ -82,7 +82,7 @@ const ContactMe = () => {
 
 
 
-                            <input name='from_name' type="text" placeholder='*Name' className='input  text-white bg-transparent border w-full  input-bordered  ' />
+                            <input name='from_name' required type="text" placeholder='*Name' className='input  text-white bg-transparent border w-full  input-bordered  ' />
 
                         </div>
 
@@ -95,7 +95,7 @@ const ContactMe = () => {
 
 
 
-                            <input name='from_email' type="text" placeholder="*Email" className="input text-white bg-transparent input-bordered w-full" />
+                            <input name='from_email' required type="text" placeholder="*Email" className="input text-white bg-transparent input-bordered w-full" />
 
                         </div>
                     </div>
@@ -109,7 +109,7 @@ const ContactMe = () => {
 
 
 
-                        <input name='from_subject' type="text" placeholder="*Subject" className="input text-white bg-transparent input-bordered w-full" />
+                        <input required name='from_subject' type="text" placeholder="*Subject" className="input text-white bg-transparent input-bordered w-full" />
 
                     </div>
 
@@ -122,7 +122,7 @@ const ContactMe = () => {
 
 
 
-                        <textarea name='message' type="text" placeholder="*Your Message" className="textarea text-white bg-transparent textarea-bordered h-32 w-full" />
+                        <textarea required name='message' type="text" placeholder="*Your Message" className="textarea text-white bg-transparent textarea-bordered h-32 w-full" />
 
                     </div>
 

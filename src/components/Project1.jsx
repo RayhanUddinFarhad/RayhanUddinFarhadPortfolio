@@ -42,23 +42,18 @@ const Project1 = () => {
                             <Carousel className=' text-white' showArrows={true} >
                                 <div>
                                     <img src={StudentDashboard} />
-                                    <p className="legend">Student Dashbard</p>
                                 </div>
                                 <div>
                                     <img src={instructorDashboard} />
-                                    <p className="legend">Instructor Can add class</p>
                                 </div>
                                 <div>
                                     <img src={adminUserManeg} />
-                                    <p className="legend">Admin can manage users</p>
                                 </div>
                                 <div>
                                     <img src={adminManageClass} />
-                                    <p className="legend">Admin can manage classes</p>
                                 </div>
                                 <div>
                                     <img src={updateProfile} />
-                                    <p className="legend">Anyone can update profile</p>
                                 </div>
                             </Carousel>
 

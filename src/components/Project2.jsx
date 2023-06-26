@@ -21,7 +21,7 @@ const Project2 = () => {
           <h1> <span className='text-2xl font-bold'>StyleSpot</span> -  An E-Commerce Website</h1>
 
           <div className="card-actions justify-end">
-            <button className="btn btn-circle hover:bg-inherit hover:text-white" onClick={() => window.my_modal_5.showModal()}> <FaArrowRight></FaArrowRight></button>
+            <button className="btn btn-circle hover:bg-inherit hover:text-white " onClick={() => window.my_modal_5.showModal()}> <FaArrowRight></FaArrowRight></button>
           </div>
         </div>
       </div>
@@ -44,23 +44,18 @@ const Project2 = () => {
               <Carousel className=' text-white' showArrows={true} >
                 <div>
                   <img src={collections} />
-                  <p className="legend">Collections</p>
                 </div>
                 <div>
                   <img src={details} />
-                  <p className="legend">Check details and add it to your cart</p>
                 </div>
                 <div>
                   <img src={cart} />
-                  <p className="legend">Check cart collections and  increase or decrease quantity</p>
                 </div>
                 <div>
                   <img src={checkOut} />
-                  <p className="legend">Checkout with address</p>
                 </div>
                 <div>
                   <img src={status} />
-                  <p className="legend">Track  your order</p>
                 </div>
               </Carousel>
 

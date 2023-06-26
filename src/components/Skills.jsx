@@ -21,7 +21,7 @@ const Skills = () => {
 
             <div data-aos="fade-up"
      data-aos-easing="linear"
-     data-aos-duration="1500" className=' grid lg:grid-cols-4 grid-cols-2  items-center justify-center space-y-5 mx-auto gap-5 '>
+     data-aos-duration="1500" className=' grid lg:grid-cols-4 grid-cols-2  items-center justify-center space-y-5 mx-auto gap-5 max-w-screen-lg '>
 
 
 

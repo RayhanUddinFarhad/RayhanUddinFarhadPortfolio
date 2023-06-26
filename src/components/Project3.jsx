@@ -42,23 +42,18 @@ const Project3 = () => {
                             <Carousel className=' text-white' showArrows={true} >
                                 <div>
                                     <img src={collections} />
-                                    <p className="legend">Collections</p>
                                 </div>
                                 <div>
                                     <img src={details} />
-                                    <p className="legend">Check details and add it to your cart</p>
                                 </div>
                                 <div>
                                     <img src={allToys} />
-                                    <p className="legend">Explore all toys added by seller</p>
                                 </div>
                                 <div>
                                     <img src={addToys} />
-                                    <p className="legend">Add your own tiys</p>
                                 </div>
                                 <div>
                                     <img src={myToys} />
-                                    <p className="legend">Check your added toys</p>
                                 </div>
                             </Carousel>
 

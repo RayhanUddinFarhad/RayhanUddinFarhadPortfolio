@@ -10,6 +10,7 @@ import AboutMe from './components/AboutMe'
 import ContactMe from './components/ContactMe'
 import MagicNav from './components/MagicNav'
 import Footer from './components/Footer'
+import logo from '../src/assets/logo.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,9 +22,10 @@ function App() {
       <div className='relative'>
         <MagicNav></MagicNav>
 
-        <div className='space-y-20 pt-10'>
 
-          <div id='welcome'>
+        <div className='space-y-40 '>
+
+          <div id='welcome' className='' >
 
             <Banner ></Banner>
           </div>

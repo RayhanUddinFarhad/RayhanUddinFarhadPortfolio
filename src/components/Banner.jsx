@@ -16,32 +16,11 @@ import Rotate from 'react-reveal/Rotate';
 
 const Banner = () => {
     return (
-        // <div style={{background : 'linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%)'}} className=' flex justify-center items-center'>
-
-
-        //     <div>
-
-        //         <img className='h-96 w-96 object-contain  ' src= {img1} alt="" />
-
-
-        //     </div>
+      
 
 
 
-        //     <div className='text-white space-y-8'>
-
-        //         <h1 className='text-5xl  font-extrabold'>Hello, I am Rayhan Uddin Farhad</h1>
-        //         <h2 className='text-4xl'>I am a Mern Stack Developer</h2>
-        //         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id harum, atque accusantium nobis labore corporis quia repellat at ipsam asperiores, sint repudiandae enim nulla possimus assumenda quod ipsa corrupti. Provident.</p>
-
-
-        //     </div>
-
-        // </div>
-
-
-
-        <div  style={{ background: 'linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%)' }} className=" min-h-96 p-5 mx-auto  ">
+        <div  style={{ background: 'linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%)' }} className=" min-h-96 p-5 mx-auto  mt-10">
             <div className="lg:flex space-y-10 lg:space-y-0 lg:space-x-10 items-center justify-center ">
                 <div className='relative'>
 
@@ -87,20 +66,20 @@ const Banner = () => {
 
 
                             <div className='flex  space-x-2 my-2'>
-                                <button className=' flex justify-center items-center btn-circle bg-purple-800 border-0 text-white shadow-2xl'>
+                                <button className=' flex justify-center items-center btn-circle bg-purple-800 border-0 text-white shadow-2xl hover:bg-transparent  '>
 
                                     <a href="https://www.linkedin.com/in/rayhan-uddin-farhad-23a593267/"> <FaLinkedin className='text-xl'></FaLinkedin></a>
                                 </button>
-                                <button className=' flex justify-center items-center btn-circle bg-purple-800 border-0 text-white shadow-2xl'>
+                                <button className=' flex justify-center items-center btn-circle bg-purple-800 border-0 text-white shadow-2xl hover:bg-transparent'>
 
                                     <a href="https://github.com/RayhanUddinFarhad?tab=repositories"> <FaGithub className='text-xl'></FaGithub></a>
                                 </button>
-                                <button className=' flex justify-center items-center btn-circle bg-purple-800 border-0 text-white shadow-2xl'>
+                                <button className=' flex justify-center items-center btn-circle bg-purple-800 border-0 text-white shadow-2xl hover:bg-transparent'>
 
                                     <a href="https://www.facebook.com/md.rayhan.uddin.farhad.7"> <FaFacebook className='text-xl'></FaFacebook></a>
                                 </button>
 
-                                <button className=' flex justify-center items-center btn-circle bg-purple-800 border-0 text-white shadow-2xl'>
+                                <button className=' flex justify-center items-center btn-circle bg-purple-800 border-0 text-white shadow-2xl hover:bg-transparent'>
 
                                     <a href="https://www.instagram.com/rayhanuddinfarhad/"> <FaInstagram className='text-xl'></FaInstagram></a>
                                 </button>
