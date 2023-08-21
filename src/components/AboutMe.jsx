@@ -20,10 +20,8 @@ const AboutMe = () => {
           <h1 className="text-5xl font-bold text-red-400">I am available for your  Project</h1>
           <p className="py-6">Hello! I'm Rayhan Uddin Farhad, from Chittagong, Bangladesh. <br />  I am dedicated to learning and mastering new technologies, and coding has become my true passion. <br /> I invest a significant amount of time in staying up-to-date with the latest trends and honing my skills.
 
-            If you have an exciting project in mind, I'm all ears! Feel free to explore my resume below to gain a better understanding of my skills and experience.
-
-            Let's connect and bring your project to life together!</p>
-          <button className="button-primary"> <a className='flex items-center' href="https://drive.google.com/file/d/1NnlnnwKj2yuCctqlsSrzqqyvl5T2z3QN/view?usp=sharing"><FaDownload className='mr-2'></FaDownload> Download Resume</a></button>        </div>
+            If you have an exciting project in mind, I'm all ears!</p>
+                 </div>
       </div>
     </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaArrowRight, FaExternalLinkAlt } from 'react-icons/fa';
-import stylespot from '../assets/StyleSpot.png'
+import stylespot from '../assets/StyleSpotCollection/stylespot-full.png'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 import collections from '../assets/StyleSpotCollection/StyleSpotCollections.png'
@@ -16,7 +16,7 @@ const Project2 = () => {
 
 
       <div className="card  bg-transparent text-gray-100 shadow-xl h-full">
-        <figure><img className='hover:scale-125 ease-in duration-500' src={stylespot} alt="Shoes" /></figure>
+        <figure className='image-wrap'><img className='object-center'  src={stylespot} alt="Shoes" /></figure>
         <div className="card-body justify-end">
           <h1> <span className='text-2xl font-bold'>StyleSpot</span> -  An E-Commerce Website</h1>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import dramatix from '../assets/DramatixLab.png'
+import dramatix from '../assets/DramatixLabImages/Dramatixlab-full.png'
 import { FaArrowRight, FaCircle, FaExternalLinkAlt } from 'react-icons/fa';
 import dramatixFull from '../assets/DramatixLabFull.png'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -16,7 +16,7 @@ const Project1 = () => {
     return (
         <>
             <div className="card  bg-transparent text-gray-100 shadow-xl h-full">
-                <figure><img className='hover:scale-125 ease-in duration-500' src={dramatix} alt="Shoes" /></figure>
+                <figure className='image-wrap'><img  src={dramatix} alt="Shoes" /></figure>
                 <div className="card-body justify-end">
                     <h1> <span className='text-2xl font-bold'>DramatixLab</span> -  A Summer School Camp Website</h1>
 

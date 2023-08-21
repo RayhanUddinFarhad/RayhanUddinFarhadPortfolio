@@ -1,5 +1,5 @@
 import React from 'react';
-import brainbox from '../assets/BrainBoxKiddo.png'
+import brainbox from '../assets/Toys/toys-full.png'
 import { FaArrowRight, FaExternalLinkAlt } from 'react-icons/fa';
 import { Carousel } from 'react-responsive-carousel';
 import collections from '../assets/Toys/ToysCollections.png'
@@ -13,7 +13,7 @@ const Project3 = () => {
         <>
 
             <div className="card  bg-transparent text-gray-100 shadow-xl h-full">
-                <figure><img className='hover:scale-125 ease-in duration-500' src={brainbox} alt="Shoes" /></figure>
+                <figure className='image-wrap'><img  src={brainbox} alt="Shoes" /></figure>
                 <div className="card-body justify-end">
                     <h1> <span className='text-2xl font-bold'>BrainboxKiddo</span> -  A Toys Marketplace Website</h1>
 

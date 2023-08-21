@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import mypc from '../assets/mypicForabout.jpg'
+import mypc from '../assets/mypic3.jpg'
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import Shake from 'react-reveal/Shake';
@@ -46,7 +46,7 @@ const ContactMe = () => {
 
                 <div className='space-y-5'>
 
-                    <img className='h-96 object-contain shadow-2xl rounded-xl' src={mypc} alt="" />
+                    <img className='h-96 object-cover shadow-2xl rounded-xl' src={mypc} alt="" />
 
 
 
