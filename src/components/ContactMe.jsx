@@ -53,7 +53,7 @@ const ContactMe = () => {
                     <div className='w-full'>
 
                         <h1 className='text-gray-300 text-xl font-bold'>Find me on E-mail</h1>
-                        <p className='text-white text-lg lg:text-xl font-bold '>RayhanUddinFarhad11@gmail.com</p>
+                        <p className='text-white text-lg lg:text-xl font-bold '>RayhanUddinFarhad2002@gmail.com</p>
                     </div>
 
                     <div>
